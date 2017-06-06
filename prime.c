@@ -1,14 +1,10 @@
-package primenumber;
-
-import java.util.Scanner;
-
-public class primenumber {
-	public static void main(String[] args)
-	{
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
 		int n,m;
-		System.out.println("Enter the n:");
-		Scanner s=new Scanner(System.in);
-		n=s.nextInt();
+		printf("Enter the n value:");
+		scanf("%d",&n);
 		for(m=1;m<=n/2;m++)
 		{
 			if(n%m==0)
